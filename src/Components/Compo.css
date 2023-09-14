@@ -1,0 +1,65 @@
+.sectionmain{
+    display: grid;
+    background-color: lightcyan;
+    height: auto;
+    text-align: center;
+
+
+
+}
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 10px; /* Adjust the gap between images as needed */
+  }
+
+  .image-container img {
+    max-width: 100%; /* Each image takes up 100% of its grid cell */
+    height: auto; /* Maintains the image aspect ratio */
+  }
+.head{
+    color: darkblue;
+    font-size: 2rem;
+}
+.head2{
+    color: darkblue;
+    font-size: 1.5rem;
+}
+ /* Style the container */
+ .file-input-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.file-input-container input[type="file"] {
+    position: absolute;
+    font-size: 100px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+/* Style the label text */
+.file-input-label {
+    font-size: 16px;
+}
+
+/* Style on hover */
+.file-input-container:hover {
+    background-color: #2980b9;
+}
+.fillcolorbtn{
+    background-color: #2980b9;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none!important;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
